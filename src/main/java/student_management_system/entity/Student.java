@@ -10,10 +10,11 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "student")
 public class Student {
-	
+
+	//Github checking
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private int rollNo;
+	private int rollNo; 
 	
 	@Column(name = "student_FirstName")
 	private String firstName;
