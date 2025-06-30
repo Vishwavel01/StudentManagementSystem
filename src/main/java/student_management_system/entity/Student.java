@@ -10,8 +10,7 @@ import jakarta.persistence.Table;
 @Entity
 @Table(name = "student")
 public class Student {
-
-	//Github checking
+	
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int rollNo; 
